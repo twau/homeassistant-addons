@@ -1,0 +1,17 @@
+---
+name: PairDrop
+version: '0.2-alpha'
+slug: pairdrop
+description: >-
+  "PairDrop: Local file sharing in your browser. Inspired by Apple's AirDrop. Fork of Snapdrop."
+init: false
+arch:
+  - amd64
+ports:
+  3000/tcp: 3000
+startup: application
+boot: auto
+options: {}
+schema: {}
+url: https://pairdrop.net/
+panel_icon: mdi:broadcast
