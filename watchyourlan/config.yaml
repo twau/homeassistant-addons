@@ -4,6 +4,7 @@ description: "Lightweight network IP scanner. Can be used to notify about new ho
 url: https://github.com/aceberg/WatchYourLAN
 version: '0.2-alpha'
 slug: watchyourlan
+init: false
 host_network: true
 panel_icon: mdi:access-point-network
 panel_title: WatchYourLAN
