@@ -24,3 +24,16 @@ options:
   color: "dark"
   ifaces: "enp2s0"
   timeout: 120
+  arp_args: ""
+  log_level: "info"
+  trim_hist: 48
+
+schema:
+  tz: str?
+  theme: str
+  color: str
+  ifaces: str
+  timeout: int
+  arp_args: str?
+  log_level: list(debug|info|warn|error)
+  trim_hist: int
