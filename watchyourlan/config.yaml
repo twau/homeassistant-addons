@@ -1,0 +1,25 @@
+---
+name: "WatchYourLAN"
+description: "Lightweight network IP scanner. Can be used to notify about new hosts and monitor host online/offline history"
+url: https://github.com/aceberg/WatchYourLAN
+version: '0.2-alpha'
+slug: watchyourlan
+host_network: true
+panel_icon: mdi:access-point-network
+panel_title: WatchYourLAN
+ingress: true
+ingress_stream: true
+hassio_role: manager
+map:
+  - addon_config:rw
+privileged:
+  - NET_RAW
+  - NET_ADMIN
+arch:
+  - amd64
+options:
+  tz: "Europe/Stockholm"
+  theme: "sand"
+  color: "dark"
+  ifaces: "enp2s0"
+  timeout: 120
